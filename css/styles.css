@@ -1,5 +1,5 @@
 body{
-    background-color: #256969;
+    background-color: #308f8f;
 }
 hr{
     border-style: none;
@@ -8,3 +8,19 @@ hr{
     border-width: 5px;
     width: 5%;
 }
+h1{
+    color: rgb(94, 17, 104);
+    animation-duration: 3s;
+  animation-name: slidein;
+
+h3{
+    color: rgb(56, 26, 5);
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  /*animation does not work ?*/
+  
